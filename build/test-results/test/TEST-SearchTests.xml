@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SearchTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-01T15:34:05" hostname="MSI-GX70" time="14.038">
+  <properties/>
+  <testcase name="selenideSearchTest()" classname="SearchTests" time="14.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 13 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\egorm\IdeaProjects\google-test\build\downloads\1648827245680_11564_13
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.30.0 (resolved driver for Firefox 98)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\egorm\.cache\selenium\geckodriver\win64\0.30.0\geckodriver.exe
+1648827248390	geckodriver	INFO	Listening on 127.0.0.1:50360
+1648827250045	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51940" "-no-remote" "-profile" "C:\\Users\\egorm\\AppData\\Local\\Temp\\rust_mozprofileo1XtYz"
+*** You are running in headless mode.
+1648827251394	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\egorm\\AppData\\Local\\Temp\\rust_mozprofileo1XtYz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51940/devtools/browser/3c206ddb-4a10-41f9-ba0c-5d9a4eec0d0e
+1648827255026	Marionette	INFO	Listening on port 59420
+1648827255113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+апр. 01, 2022 6:34:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from PT10S to PT10S
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from PT3M to PT3M
+[Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=firefox Version=98.0.2 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.1.1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.1.0 build revision: 87802e897b
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 13: FirefoxDriver -> FirefoxDriver: firefox on WINDOWS (817896dc-ea46-48ac-be59-a25cef9b0b85)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+]]></system-err>
+</testsuite>
