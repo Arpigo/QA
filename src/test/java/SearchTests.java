@@ -11,7 +11,7 @@ public class SearchTests {
     @Test
     void selenideSearchTest() {
         Configuration.headless = true;
-        Configuration.browser = FIREFOX;
+        Configuration.browser = "FIREFOX";
         // Открыть https://google.com
         open("https://google.com");
         // Ввести "Selenide" в поле поиска
